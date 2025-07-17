@@ -24,7 +24,7 @@
     <nav class="navbar">
       <div class="container">
         <div class="logo">
-          <a href="index.html">
+          <a href="index.php">
             <img src="images/logo.png" alt="logo" />
           </a>
         </div>
@@ -32,7 +32,7 @@
         <div class="main-menu">
           <ul>
             <li>
-              <a href="index.html">Home</a>
+              <a href="index.php">Home</a>
             </li>
             <li>
               <a href="#">About Us</a>
@@ -54,7 +54,7 @@
         <div class="mobile-menu">
           <ul>
             <li>
-              <a href="index.html">Home</a>
+              <a href="index.php">Home</a>
             </li>
             <li>
               <a href="#">About Us</a>
@@ -74,8 +74,11 @@
       <div class="container">
         <div class="hero-content">
           <h1 class="hero-heading text-xxl">
-            A powerful solution to grow your startup. Fast!
+            ALPHA, A powerful solution to grow your startup. Fast!
           </h1>
+         <h2 class="hero-heading text-xl">
+            Served by: <?php echo gethostname(); ?>
+          </h2>
           <p class="hero-text">
             Organize, collaborate, and track progress seamlessly with our
             one-stop-shop startup growth tool.
@@ -335,7 +338,7 @@
       <div class="container">
         <div class="footer-grid">
           <div>
-            <a href="index.html">
+            <a href="index.php">
               <img src="images/logo-white.png" alt="logo" />
             </a>
             <div class="card">
